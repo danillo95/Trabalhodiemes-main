@@ -1,0 +1,110 @@
+
+h3{
+    font-size: 40px;
+    color: black;
+}
+    
+p{
+    font-size: 20px;
+    color: rgb(5, 186, 231);
+}
+.content{
+    display: flex;
+
+}   
+.contato{
+    width: 100%;
+    max-width: 500px;
+
+}   
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid blue; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 16px;
+}
+textarea{
+    height: 150px;
+}
+
+
+.argo{
+    background-color:rgb(245, 212, 240);
+    text-align: center;
+    color: rgb(117, 4, 4);
+    font-size: 50px;
+    
+}
+h2{
+    color: rgb(7, 4, 197);
+    font-size: 30px;
+}
+body{
+    background-image: url(https://s.tmimgcdn.com/scr/1200x750/293200/flor-de-cerejeira-sakura-flor-caindo_293273-original.jpg);
+    background-size: 2000px;
+    
+}
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(245, 212, 240);
+    border-bottom: 1px solid #ccc;
+}
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+
+}
+.diaa{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+}
+.diaa ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+
+}
+.diaa li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+.diaa li a{
+    text-decoration: none;
+    color: rgb(238, 0, 0);
+    transition: .5%;
+  font-size: 30px;
+
+}
+.diaa li a:hover{
+    color: #3381F3;
+}
+
+
+

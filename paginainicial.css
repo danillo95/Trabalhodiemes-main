@@ -1,0 +1,111 @@
+h2{
+    color: rgb(5, 186, 231);
+    font-size: 50px;
+    text-align: center;
+}
+body{
+    background-image: url(https://s.tmimgcdn.com/scr/1200x750/293200/flor-de-cerejeira-sakura-flor-caindo_293273-original.jpg);
+    background-size: 2000px;
+    
+}
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(245, 212, 240);
+    border-bottom: 1px solid #ccc;
+}
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+
+}
+.diaa{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#logo{
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+}
+.diaa ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+
+}
+.diaa li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+.diaa li a{
+    text-decoration: none;
+    color: rgb(238, 0, 0);
+    transition: .5%;
+  font-size: 30px;
+
+}
+.diaa li a:hover{
+    color: #3381F3;
+}
+
+
+
+.dias{
+   
+   height: 1300px;
+   background-color: rgba(245, 212, 240, 0.616);
+}
+.dias img{
+    margin: 50px;
+    width: 200px;
+    height: 300px ;
+}
+.Produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.produto{
+    background: pink;
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.produto p{
+    text-align: center;
+    font-size: 25px;
+   background-color: aqua;
+    color: whitesmoke;
+    padding: 5px 10px;
+}
+.produto h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.produto p:hover{
+    transform: rotate(-5deg);
+}
+#t{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(218, 23, 143);
+}
